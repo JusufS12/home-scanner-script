@@ -1,0 +1,9 @@
+ 192.168.0.1     fc:2d:5e:f9:32:66      1      64  zte corporation
+ 192.168.0.103   70:85:c2:83:ca:8e      1      60  ASRock Incorporation
+ 192.168.0.108   08:00:27:ea:b9:b3      1      60  PCS Systemtechnik GmbH
+ 192.168.0.104   8c:79:f5:df:13:94      1      64  Samsung Electronics Co.,Ltd
+ 192.168.0.106   dc:4a:3e:1b:5d:78      1      64  Hewlett Packard
+ 192.168.0.105   b4:60:ed:0f:ac:bc      1      64  Beijing Xiaomi Mobile Software Co., Ltd
+ 192.168.0.107   e0:37:bf:ac:41:20      1      64  Wistron Neweb Corporation
+ 192.168.0.101   04:e5:98:50:e5:00      1      64  Xiaomi Communications Co Ltd
+

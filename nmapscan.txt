@@ -1,0 +1,151 @@
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-08-29 14:45 CEST
+Nmap scan report for ralink.ralinktech.com (192.168.0.1)
+Host is up (0.0011s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE
+53/tcp open  domain
+80/tcp open  http
+MAC Address: FC:2D:5E:F9:32:66 (zte)
+Device type: general purpose
+Running: Linux 2.6.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6
+OS details: Linux 2.6.13 - 2.6.32
+Network Distance: 1 hop
+
+Nmap scan report for 192.168.0.103
+Host is up (0.00090s latency).
+Not shown: 991 filtered tcp ports (no-response)
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+554/tcp   open  rtsp
+2869/tcp  open  icslap
+5357/tcp  open  wsdapi
+5800/tcp  open  vnc-http
+5900/tcp  open  vnc
+10243/tcp open  unknown
+MAC Address: 70:85:C2:83:CA:8E (ASRock Incorporation)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows 2019|10|XP (91%)
+OS CPE: cpe:/o:microsoft:windows_10 cpe:/o:microsoft:windows_xp::sp3
+Aggressive OS guesses: Microsoft Windows Server 2019 (91%), Microsoft Windows 10 1909 (90%), Microsoft Windows XP SP3 (85%), Microsoft Windows XP SP2 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for 192.168.0.108
+Host is up (0.0089s latency).
+Not shown: 977 closed tcp ports (reset)
+PORT     STATE SERVICE
+21/tcp   open  ftp
+22/tcp   open  ssh
+23/tcp   open  telnet
+25/tcp   open  smtp
+53/tcp   open  domain
+80/tcp   open  http
+111/tcp  open  rpcbind
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+512/tcp  open  exec
+513/tcp  open  login
+514/tcp  open  shell
+1099/tcp open  rmiregistry
+1524/tcp open  ingreslock
+2049/tcp open  nfs
+2121/tcp open  ccproxy-ftp
+3306/tcp open  mysql
+5432/tcp open  postgresql
+5900/tcp open  vnc
+6000/tcp open  X11
+6667/tcp open  irc
+8009/tcp open  ajp13
+8180/tcp open  unknown
+MAC Address: 08:00:27:EA:B9:B3 (Oracle VirtualBox virtual NIC)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.94%E=4%D=8/29%OT=21%CT=1%CU=30378%PV=Y%DS=1%DC=D%G=Y%M=080027%T
+OS:M=66D06D67%P=x86_64-pc-linux-gnu)SEQ(SP=C3%GCD=1%ISR=CC%TI=Z%CI=Z%II=I%T
+OS:S=5)SEQ(SP=C4%GCD=1%ISR=CC%TI=Z%CI=Z%II=I%TS=5)OPS(O1=M5B4ST11NW5%O2=M5B
+OS:4ST11NW5%O3=M5B4NNT11NW5%O4=M5B4ST11NW5%O5=M5B4ST11NW5%O6=M5B4ST11)WIN(W
+OS:1=16A0%W2=16A0%W3=16A0%W4=16A0%W5=16A0%W6=16A0)ECN(R=Y%DF=Y%T=40%W=16D0%
+OS:O=M5B4NNSNW5%CC=N%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=
+OS:Y%DF=Y%T=40%W=16A0%S=O%A=S+%F=AS%O=M5B4ST11NW5%RD=0%Q=)T4(R=Y%DF=Y%T=40%
+OS:W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=
+OS:)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=
+OS:S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RU
+OS:CK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for 192.168.0.104
+Host is up (0.0042s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+8001/tcp open  vcom-tunnel
+8002/tcp open  teradataordbms
+8080/tcp open  http-proxy
+9999/tcp open  abyss
+MAC Address: 8C:79:F5:DF:13:94 (Samsung Electronics)
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.2 - 4.9
+Network Distance: 1 hop
+
+Nmap scan report for 192.168.0.106
+Host is up (0.0023s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+631/tcp  open  ipp
+8080/tcp open  http-proxy
+9100/tcp open  jetdirect
+9220/tcp open  unknown
+MAC Address: DC:4A:3E:1B:5D:78 (Hewlett Packard)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.94%E=4%D=8/29%OT=80%CT=1%CU=30413%PV=Y%DS=1%DC=D%G=Y%M=DC4A3E%T
+OS:M=66D06D67%P=x86_64-pc-linux-gnu)SEQ(SP=105%GCD=1%ISR=105%II=I%TS=A)SEQ(
+OS:SP=105%GCD=1%ISR=107%CI=I%II=I%TS=A)SEQ(SP=105%GCD=1%ISR=10D%II=I%TS=A)S
+OS:EQ(SP=106%GCD=1%ISR=10C%CI=I%TS=A)SEQ(SP=107%GCD=1%ISR=106%TS=A)OPS(O1=M
+OS:5B4NW0NNT11%O2=M578NW0NNSNNT11%O3=M280NW0NNT11%O4=M5B4NW0NNSNNT11%O5=M21
+OS:8NW0NNSNNT11%O6=M109NNSNNT11)WIN(W1=21F0%W2=2088%W3=2258%W4=21F0%W5=20C0
+OS:%W6=209D)ECN(R=Y%DF=N%T=40%W=2238%O=M5B4NW0NNS%CC=N%Q=)T1(R=Y%DF=N%T=40%
+OS:S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=N%T=40%W=0%S=A%A=Z%F=R%O=%
+OS:RD=0%Q=)T5(R=Y%DF=N%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=N%T=40%W
+OS:=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=N%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)
+OS:U1(R=Y%DF=N%T=FF%IPL=38%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DF
+OS:I=N%T=FF%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for 192.168.0.105
+Host is up (0.030s latency).
+All 1000 scanned ports on 192.168.0.105 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: B4:60:ED:0F:AC:BC (Beijing Xiaomi Mobile Software)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: 2N Helios IP VoIP doorbell (96%), Advanced Illumination DCS-100E lighting controller (96%), AudioControl D3400 network amplifier (96%), British Gas GS-Z3 data logger (96%), Daysequerra M4.2SI radio (96%), Denver Electronics AC-5000W MK2 camera (96%), DTE Energy Bridge (lwIP stack) (96%), Enlogic PDU (FreeRTOS/lwIP) (96%), Espressif esp8266 firmware (lwIP stack) (96%), Espressif ESP8266 WiFi system-on-a-chip (96%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for 192.168.0.107
+Host is up (0.0076s latency).
+All 1000 scanned ports on 192.168.0.107 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: E0:37:BF:AC:41:20 (Wistron Neweb)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for 192.168.0.101
+Host is up (0.020s latency).
+All 1000 scanned ports on 192.168.0.101 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 04:E5:98:50:E5:00 (Xiaomi Communications)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 8 IP addresses (8 hosts up) scanned in 17.47 seconds
